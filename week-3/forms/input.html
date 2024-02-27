@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Registration Form</title>
+</head>
+<body>
+    
+    <!-- create a form for an intending bank user which includes
+        First name
+        Last name
+        Email
+        Phone number
+        Password
+        Confirm Password
+        Mother's maiden name
+        BVN
+        Account number
+        Nationality
+        Residential address
+        Date of Birth
+        Gender
+        Marital status
+        Type of account
+        Brief description of yourself
+        Upload your passport
+        State of origin
+        LGA
+        Link to your social media account
+    -->
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="Enter your first name" required>
+        
+        <br><br>
+        <label for="lname">last Name:</label>
+        <input type="text" name="lname" placeholder="Enter your last name" required>
+    
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your email">
+    
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" placeholder="Enter your phone number">
+
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password">
+
+        <br><br>
+        <label for="smedia">Twitter</label>
+        <input type="text" name="smedia">
+
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" required/> Male
+        <input type="radio" name="gender" required/> Female
+        <input type="radio" name="gender" required/> Rather not say
+
+        <br><br>
+        <label for="courses">Courses</label>
+        <input type="checkbox" name="courses" required/> HTML
+        <input type="checkbox" name="courses" required/> CSS
+        <input type="checkbox" name="courses" required/> Javascript
+        <input type="checkbox" name="courses" required/> React
+
+        <br><br>
+        <label for="country">Country of Origin</label>
+        <select name="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Togo">Togo</option>
+            <option value="Benin">Benin</option>
+        </select>
+
+        <br><br>
+        <label for="attendance">Attendance Link</label>
+        <input type="url">
+
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+
+        <br><br>
+        <label for="time">Start Time</label>
+        <input type="time" name="time" id="time">
+
+        <br><br>
+        <label for="description">Short Description</label>
+        <textarea name="description" id="" cols="20" rows="10"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+</body>
+</html>

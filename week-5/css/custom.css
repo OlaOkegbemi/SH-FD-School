@@ -1,0 +1,30 @@
+.cta {
+    background-color: red;
+    color: white;
+    border-radius: .5rem;
+}
+
+.notify {
+    background-color: purple;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+.notify:hover {
+    background-color: blue;
+}
+
+
+/* tablets */
+@media screen and (max-width: 768px) { 
+    .cta {
+        background-color: blue;
+    }
+}
+
+/* small desktop */ 
+@media screen and (max-width: 1024px) { 
+    .cta {
+        background-color: red;
+    }
+}

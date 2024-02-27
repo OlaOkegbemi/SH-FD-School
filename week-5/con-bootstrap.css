@@ -1,0 +1,23 @@
+.batton {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    background-color: #000;
+    color: #fff;
+}
+

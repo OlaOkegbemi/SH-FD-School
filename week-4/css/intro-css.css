@@ -1,0 +1,40 @@
+    /* universal selector */
+    * {
+        color: red;
+    }
+
+    /* type selector; select elements by tag names */
+    h1 {
+        color: blue;
+    }
+
+    /* class selector; select elements by class names */
+    .first {
+        background-color: red;
+        color: yellow;
+    }
+
+    h1.second {
+        background-color: black;
+        color: white;
+    }
+
+    .second {
+        background-color: green;
+        color: white;
+    }
+
+    /* id selector; select elements by id */
+    #initial {
+        background-color: yellow;
+        color: black;
+    }
+
+    /* descendant selector; select elements that are descendants of another element */
+    ul li {
+        color: green;
+    }
+    
+    li {
+        color: blue;
+    }

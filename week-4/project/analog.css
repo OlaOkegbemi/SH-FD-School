@@ -1,0 +1,69 @@
+
+.wrapper {
+    border: 2px double #000;
+    padding: 15px;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* nav section starts */
+.nav {
+    text-align: center;
+
+    border: 2px solid #000;
+    border-left: none;
+    border-right: none;
+
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    
+    margin-bottom: 16px;
+}
+
+.nav .links {
+    padding: 10px 0;
+}
+
+.nav .links li {
+    display: inline;
+
+    margin: 0 10px 5px 7px; /* top right bottom left */
+    margin: 0 10px 5px; /* top left-right bottom */
+    margin: 5px 9px; /* top-bottom left-right */
+    margin: 15px; /* all sides */
+
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav .links li:nth-child(1) {
+    color: red;
+}
+
+.nav .links li:hover {
+    color: green;
+}
+/* nav section ends */
+
+/* images section starts */
+.images {
+    padding: 15px 0;
+}
+
+.images img {
+    width: 32%;
+    margin: 0 3px;
+}
+/* images section ends */
+
+/* description section starts */
+.description {
+    padding: 15px 0;
+    text-align: center;
+}
+/* description section ends */
