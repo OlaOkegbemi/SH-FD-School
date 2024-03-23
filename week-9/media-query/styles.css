@@ -1,0 +1,45 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+    margin: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Set of rules */
+
+/* Rules 1 */
+/* Rules 2 */
+/* Rules 3 */
+/* Rules 3.1 */
+
+/* 
+    Mobile phones - Rules 1  0 - 578/600px
+    Tablets - Rules 3 greater than 600px and less than 1024px
+    Small Desktops - Rules 3.1 greater than 1024px and less than 1440px
+    Hi-res Desktops - Rules 2 greater than 1440px
+*/
+
+/* Media Queries */
+/* Mobile phones */
+@media screen and (max-width: 600px) {
+    .box{
+        background-color: blue;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .box{
+        background-color: green;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .box{
+        background-color: green;
+    }
+}
